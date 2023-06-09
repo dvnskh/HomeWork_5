@@ -71,14 +71,9 @@
 // void FindSums(int[] array)
 // {
 //    int oddSum=0;
-//    int evenCount = 0;
-//         for (int i = 0; i < array.Length; i++)
+//         for (int i = 0; i < array.Length; i+=2)
 //         {
-//             if (array[i] % 2 != 0)
-//             {
-//                 evenCount++;
-//                 oddSum+=array[i];
-//             }
+//             oddSum+=array[i];
 //         }
     
 // System.Console.Write($"Сумма  не четных индексов  равна => " + oddSum);
